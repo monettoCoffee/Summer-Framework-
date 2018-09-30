@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="student2" class="com.monetto.entry.Student" scope="singleton">
+        <property name="id" value="2"></property>
+        <property name="name" value="22"></property>
+        <property name="password" value="222"></property>
+    </bean>
+    <bean id="student3" class="com.monetto.entry.Student" scope="prototype">
+        <property name="id" value="3"></property>
+        <property name="name" value="33"></property>
+        <property name="password" value="333"></property>
+    </bean>
+</beans>
